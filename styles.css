@@ -745,3 +745,12 @@ nav a{
     }
     
 }
+@media(min-width:1200px) and (max-width:1900px){
+    #name,#email{
+        width:120%;
+    }
+    #state,#gender,#course{
+        width:97.8%;
+    }
+}
+
