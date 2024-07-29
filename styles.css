@@ -506,7 +506,6 @@ nav a{
 .footer-section .contact-info h4 {
     margin-left: 50px; 
 }
-<<<<<<< Updated upstream
 @media (max-width: 469px) {
     .navbar .auth-buttons button {
         display: none;
@@ -519,7 +518,6 @@ nav a{
     width: 410px;
     max-width: 93%;
 }
-=======
 .inquiry-form input[type="text"],.inquiry-form input[type="email"]{
     width:360px;
 }
@@ -747,4 +745,3 @@ nav a{
     }
     
 }
->>>>>>> Stashed changes
