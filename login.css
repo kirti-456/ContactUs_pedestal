@@ -18,12 +18,12 @@ body, html {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.login-box, .register-box, .welcome-box {
+.login-box, .welcome-box {
     padding: 30px;
     flex: 1;
 }
 
-.login-box, .register-box {
+.login-box {
     background-color: rgb(219, 234, 247);  /* Background color with opacity */
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -37,7 +37,7 @@ body, html {
     margin-bottom: 20px;
 }
 
-.login-form, .register-form {
+.login-form {
     width: 100%;
 }
 
@@ -58,17 +58,17 @@ body, html {
     border-radius: 5px;
 }
 
-.forgot-password, .login {
-    text-align: center;
-    margin-top: 10px;
+.forgot-password {
+    text-align: right;
+    margin-bottom: 20px;
 }
 
-.forgot-password a, .login a {
+.forgot-password a {
     color: rgb(7 41 165);
     text-decoration: none;
 }
 
-.login-button, .register-button {
+.login-button {
     width: 100%;
     padding: 10px;
     border: none;
@@ -77,15 +77,15 @@ body, html {
     color: white;
     font-size: 16px;
     cursor: pointer;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
-.register, .login {
+.register {
     color: rgb(81, 81, 81);
     text-align: center;
 }
 
-.register a, .login a {
+.register a {
     color: rgb(7 41 165);
     text-decoration: none;
 }
